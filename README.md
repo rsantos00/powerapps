@@ -1,8 +1,10 @@
 # Powerapps
-Sharing my random PowerApps I build. All Apps are responsible free and you can share/edit/use/change/ do whatever you want with it :), no credits needed, just promise me you will help someone else today ;)
+Sharing my random PowerApps I build. All Apps are free and you can share/edit/use/change/ do whatever you want with it :), no credits needed, just promise me you will help someone else today ;)
 
+# Instalation:
+I have used the Export Package that as today is in Preview, let me know if you came to any challange
 
-# KidApp
+# KidApp - 03/09/2019
 
 Check the post I created in Linked why/how I built this App : 
 
