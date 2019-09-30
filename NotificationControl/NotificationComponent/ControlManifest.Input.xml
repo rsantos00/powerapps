@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="ruisantos.NewNotificationControl015hacked" constructor="NotificationComponent" version="0.0.1" 
+  display-name-key="NewNotificationComponent015hacked" description-key="NewNotificationComponent015_hacked description" 
+  control-type="standard">   
+    <property name="SignalRHubConnectionUrl" display-name-key="SignalR" description-key="SignalR" of-type="SingleLine.Text" usage="bound" required="false" />
+    
+    <property name="MessageToSend" display-name-key="MessageToSend" description-key="MessageToSend" 
+    of-type="Multiple" usage="bound" required="false" />
+
+    <property name="ReceivedMessageText" display-name-key="ReceivedMessageText" description-key="ReceivedMessageText" 
+    of-type="SingleLine.Text" usage="output" required="false" />
+    <property name="ReceivedMessageType" display-name-key="ReceivedMessageType" description-key="ReceivedMessageType" 
+    of-type="SingleLine.Text" usage="output" required="false" />
+    <property name="ReceivedMessageSender" display-name-key="ReceivedMessageSender" description-key="ReceivedMessageSender" 
+    of-type="SingleLine.Text" usage="output" required="false" />
+    
+    <resources>
+      <code path="index.ts" order="1"/>      
+    </resources>    
+    <feature-usage>
+      <uses-feature name="Device.captureAudio" required="true" />
+      <uses-feature name="Device.captureImage" required="true" />
+      <uses-feature name="Device.captureVideo" required="true" />
+      <uses-feature name="Device.getBarcodeValue" required="true" />
+      <uses-feature name="Device.getCurrentPosition" required="true" />
+      <uses-feature name="Device.pickFile" required="true" />
+      <!-- <uses-feature name="Utility" required="true" /> -->
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
