@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="ruisantos.NewNotificationControl015hacked" constructor="NotificationComponent" version="0.0.1" 
-  display-name-key="NewNotificationComponent015hacked" description-key="NewNotificationComponent015_hacked description" 
+  <control namespace="ruisantos.NotificationControl" constructor="NotificationComponent" version="0.0.1" 
+  display-name-key="NotificationComponent" description-key="NotificationComponent description" 
   control-type="standard">   
     <property name="SignalRHubConnectionUrl" display-name-key="SignalR" description-key="SignalR" of-type="SingleLine.Text" usage="bound" required="false" />
     
