@@ -7,20 +7,17 @@ export class NotificationComponent implements ComponentFramework.StandardControl
 
 	
 	private _signalRApi: string="https://your_azure_function_site.azurewebsites.net/api";
+	private _mainurl: string=  "https://your_org_name.crm4.dynamics.com/main.aspx?pagetype=entityrecord&etn=contact&";
+	
 	private tbMessage: HTMLInputElement;
 	private _refreshData: EventListenerOrEventListenerObject;
 	private _container: HTMLDivElement;
 	private _ImageContainer: HTMLDivElement;
-
-
 	private _receivedMessage: ReceivedModel;
 	private _notifyOutputChanged: () => void;
 	private _context: ComponentFramework.Context<IInputs>;
 	private connection: signalR.HubConnection;
 	private _lastMessage: Model;
-
-	
-	private _mainurl: string=  "https://your_org_name.crm4.dynamics.com/main.aspx?pagetype=entityrecord&etn=contact&";
 	private _urlTemp:string;
 
 	constructor(){	}
@@ -84,28 +81,8 @@ export class NotificationComponent implements ComponentFramework.StandardControl
 				}
 				console.log("Notification control: Going to open the page: "+this._urlTemp);
 				document.location.replace( this._urlTemp); // do the refresh
-
-
 			}
-
-			// this._lastMessage=message;
-			// let m = document.createElement("div");
-			// if(!message.sender.includes("@"))
-			// {
-			// 	this._lastMessage.type="text";
-			// 	m.innerHTML =
-			// 	`<div class="message-author">${message.sender}</div><div>${message.text}</div>`;
-			// }
-			// else
-			// {
-			// 	this._lastMessage.type="image";
-			// 	let htmlToput="<p>Image received: "+(new Date().toLocaleString())+" </p>";
-			// 	htmlToput+= "<img style='width:200px;height:200px;' src='"+message.text +"'/>";
-			// 	this._ImageContainer.innerHTML =htmlToput;
-			// }
-
-			// container.appendChild(m);
-			// container.scrollTop = container.scrollHeight;
+			
 			this._notifyOutputChanged();
 
 		});
@@ -119,27 +96,7 @@ export class NotificationComponent implements ComponentFramework.StandardControl
 		})
 	  	.catch(err => console.log(err));
 
-	}
-
-	// public refreshData(evt: Event): void {
-
-	// 	console.log("Refresh Received");
-	// 	let updateMessage= JSON.parse(this._context.parameters.MessageToSend.raw!= null?
-	// 		this._context.parameters.MessageToSend.raw:"");
-	// 	if(updateMessage.id == this._receivedMessage.id)
-	// 		return;
-
-	// 	this._receivedMessage=updateMessage;
-
-	// 	this.httpCall("post",this._signalRApi+"/messages",
-	// 			updateMessage
-	// 			, (res)=>{ console.log(res)});
-
-	// 	console.log("Message Sent from update");
-
-	// 	this._notifyOutputChanged();
-	//   }
-
+	}	
 
 	/**
 	 * Called when any value in the property bag has changed. This includes field values, data-sets, global values such as container height and width, offline status, control metadata values such as label, visible, etc.
