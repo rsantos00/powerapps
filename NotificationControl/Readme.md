@@ -1,7 +1,7 @@
 # Notification Control - PowerApps Component Framework integrated with SignalR
 - All code is provided as is, you can do anything you want with the code.
 
-If you can let me know how did I help you, I'm always glad when I know I have added value ;)
+If you can let me know how did I help you, I'm always glad when I know I had add value ;)
 
 Steps:
 
