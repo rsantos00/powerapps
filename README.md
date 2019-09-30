@@ -22,3 +22,6 @@ https://powerapps.microsoft.com/en-us/blog/notification-control-using-powerapps-
 -Download AndroidApp source code: https://github.com/rsantos00/powerapps/blob/master/CallRedirectAndroidApp.zip
 -Download CallRedirect .apk : https://github.com/rsantos00/powerapps/blob/master/CallRedirect.apk 
 -Download PowerApp PowerCall app: https://github.com/rsantos00/powerapps/blob/master/PowerCall_20190929122806.zip
+
+# PowerApps Component Framework NotificationControl source code
+https://github.com/rsantos00/powerapps/tree/master/NotificationControl
