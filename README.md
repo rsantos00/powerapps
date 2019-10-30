@@ -15,6 +15,7 @@ https://www.linkedin.com/posts/ruisantosnor_powerapps-citizendeveloper-lowcode-a
 # PowerCall and CallRedirect AndroidApp - 29/09/2019
 
 Check the post I created in LinkedIn:
+https://www.linkedin.com/posts/ruisantosnor_inovation-digitaltransformation-powerapps-activity-6584057433772044288-zTof
 
 Check how to build the RealTime notification:
 https://powerapps.microsoft.com/en-us/blog/notification-control-using-powerapps-component-framework-and-azure-signalr/
