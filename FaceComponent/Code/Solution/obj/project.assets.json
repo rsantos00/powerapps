@@ -1,0 +1,247 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.1.6": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Microsoft.PowerApps.MSBuild.Solution/1.1.6": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        }
+      },
+      "FaceComponent/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Pcf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FaceComponent.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FaceComponent.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.1.6": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Microsoft.PowerApps.MSBuild.Solution/1.1.6": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        }
+      },
+      "FaceComponent/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Pcf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FaceComponent.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FaceComponent.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win-x64": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.1.6": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Microsoft.PowerApps.MSBuild.Solution/1.1.6": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        }
+      },
+      "FaceComponent/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Pcf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FaceComponent.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FaceComponent.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win-x86": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.1.6": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Microsoft.PowerApps.MSBuild.Solution/1.1.6": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        }
+      },
+      "FaceComponent/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Pcf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FaceComponent.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FaceComponent.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.PowerApps.MSBuild.Pcf/1.1.6": {
+      "sha512": "UbWIr8g8WJiW5Je2iuFEUqo6WgLnKKqMFX4vQMO0BBM9MSKh1FUhFpKFy6yl1PEcdcoML28DLnR1xSZoh5U78A==",
+      "type": "package",
+      "path": "microsoft.powerapps.msbuild.pcf/1.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "3rdPartyNotice.txt",
+        "LICENSE.txt",
+        "build/Microsoft.PowerApps.MSBuild.Pcf.props",
+        "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
+        "microsoft.powerapps.msbuild.pcf.1.1.6.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.nuspec"
+      ]
+    },
+    "Microsoft.PowerApps.MSBuild.Solution/1.1.6": {
+      "sha512": "kbR5FRZVZT+3uonZIlW9ms+kruyJUdERlHWHVTPDbdPGBGlNFbjfw5poP0enDibegKShu10K2TVwRvX4UWL3eA==",
+      "type": "package",
+      "path": "microsoft.powerapps.msbuild.solution/1.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "3rdPartyNotice.txt",
+        "LICENSE.txt",
+        "build/Microsoft.PowerApps.MSBuild.Solution.props",
+        "build/Microsoft.PowerApps.MSBuild.Solution.targets",
+        "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props",
+        "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets",
+        "content/Microsoft.ApplicationInsights.dll",
+        "content/Microsoft.PowerApps.AppInsights.BatchedTelemetryChannel.dll",
+        "content/SolutionPackager.exe",
+        "content/SolutionPackager.exe.config",
+        "content/SolutionPackagerLib.dll",
+        "content/System.ValueTuple.dll",
+        "content/bolt.cli.dll",
+        "content/bolt.system.dll",
+        "content/pacTelemetryTask.exe",
+        "content/pacTelemetryUpload.exe",
+        "microsoft.powerapps.msbuild.solution.1.1.6.nupkg.sha512",
+        "microsoft.powerapps.msbuild.solution.nuspec",
+        "tasks/net462/Microsoft.PowerApps.MSBuild.Tasks.dll",
+        "tasks/net462/bolt.module.solution.dll",
+        "tasks/netstandard2.0/Microsoft.PowerApps.MSBuild.Tasks.dll",
+        "tasks/netstandard2.0/bolt.module.solution.dll"
+      ]
+    },
+    "FaceComponent/1.0.0": {
+      "type": "project",
+      "path": "../FaceComponent.pcfproj",
+      "msbuildProject": "../FaceComponent.pcfproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.2": [
+      "FaceComponent >= 1.0.0",
+      "Microsoft.PowerApps.MSBuild.Solution >= 1.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rusant\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\PCFControls\\FaceComponent\\Solution\\Solution.cdsproj",
+      "projectName": "Solution",
+      "projectPath": "C:\\PCFControls\\FaceComponent\\Solution\\Solution.cdsproj",
+      "packagesPath": "C:\\Users\\rusant\\.nuget\\packages\\",
+      "outputPath": "C:\\PCFControls\\FaceComponent\\Solution\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\rusant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net462"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net462": {
+          "projectReferences": {
+            "c:\\PCFControls\\FaceComponent\\FaceComponent.pcfproj": {
+              "projectPath": "c:\\PCFControls\\FaceComponent\\FaceComponent.pcfproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net462": {
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Solution": {
+            "target": "Package",
+            "version": "[1.*, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

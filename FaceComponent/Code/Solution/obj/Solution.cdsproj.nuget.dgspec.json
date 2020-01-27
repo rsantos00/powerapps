@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PCFControls\\FaceComponent\\Solution\\Solution.cdsproj": {}
+  },
+  "projects": {
+    "c:\\PCFControls\\FaceComponent\\FaceComponent.pcfproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\PCFControls\\FaceComponent\\FaceComponent.pcfproj",
+        "projectName": "FaceComponent",
+        "projectPath": "c:\\PCFControls\\FaceComponent\\FaceComponent.pcfproj",
+        "packagesPath": "C:\\Users\\rusant\\.nuget\\packages\\",
+        "outputPath": "c:\\PCFControls\\FaceComponent\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rusant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "dependencies": {
+            "Microsoft.PowerApps.MSBuild.Pcf": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\PCFControls\\FaceComponent\\Solution\\Solution.cdsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PCFControls\\FaceComponent\\Solution\\Solution.cdsproj",
+        "projectName": "Solution",
+        "projectPath": "C:\\PCFControls\\FaceComponent\\Solution\\Solution.cdsproj",
+        "packagesPath": "C:\\Users\\rusant\\.nuget\\packages\\",
+        "outputPath": "C:\\PCFControls\\FaceComponent\\Solution\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rusant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "projectReferences": {
+              "c:\\PCFControls\\FaceComponent\\FaceComponent.pcfproj": {
+                "projectPath": "c:\\PCFControls\\FaceComponent\\FaceComponent.pcfproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "dependencies": {
+            "Microsoft.PowerApps.MSBuild.Solution": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

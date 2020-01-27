@@ -1,0 +1,19 @@
+2019-12-06 21:25:45.464 - Info	
+Packing C:\PCFControls\FaceComponent\Solution\obj\Debug\ to bin\Debug\Solution.zip
+
+2019-12-06 21:25:45.520 - Info	Processing Component: Entities
+2019-12-06 21:25:45.526 - Info	Processing Component: Roles
+2019-12-06 21:25:45.533 - Info	Processing Component: Workflows
+2019-12-06 21:25:45.533 - Info	Processing Component: FieldSecurityProfiles
+2019-12-06 21:25:45.534 - Info	Processing Component: Templates
+2019-12-06 21:25:45.535 - Info	Processing Component: EntityMaps
+2019-12-06 21:25:45.535 - Info	Processing Component: EntityRelationships
+2019-12-06 21:25:45.548 - Info	Processing Component: OrganizationSettings
+2019-12-06 21:25:45.549 - Info	Processing Component: optionsets
+2019-12-06 21:25:45.549 - Info	Processing Component: CustomControls
+2019-12-06 21:25:45.581 - Info	 - ruisantos.FaceComponent
+2019-12-06 21:25:45.663 - Info	Processing Component: SolutionPluginAssemblies
+2019-12-06 21:25:45.666 - Info	Processing Component: EntityDataProviders
+2019-12-06 21:25:45.719 - Info	
+Unmanaged Pack complete.
+
