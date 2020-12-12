@@ -1,0 +1,18 @@
+Hey, All code is as is, no warranty, no nothing :) just reach out in LinkedIn if you need help: 
+
+https://www.linkedin.com/in/ruisantosnor/
+
+This is a Power Apps that contains a Power Apps Canvas Control to enable calls to Remote Assist.
+
+Important parts:
+
+1) Create the string to generate the Base64: 
+
+Set(JsonText,"{"&Char(34)&"contactSearch"&Char(34)&":["&Char(34)&ThisItem.'Full Name'&Char(34)&","&Char(34)&ThisItem.'Primary Email'&Char(34)&"]}");
+
+2)Call the Flow to generate the Base64
+Set(RemoteAssistResult,Base64.Run(JsonText).Result);
+
+3)Launch the Remote Assist Mobile (Only works in the phone):
+Set(UrlRemoteAssist,"https://call.d365ra.com/link.html?d="&RemoteAssistResult);
+Launch(UrlRemoteAssist)
