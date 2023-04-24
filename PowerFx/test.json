@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "breadcrumb_path": "/power-platform/breadcrumb/toc.json",
+    "feedback_github_repo": "MicrosoftDocs/power-platform",
+    "feedback_product_url": "https://powerusers.microsoft.com/",
+    "feedback_system": "GitHub",
+    "ms.service": "power-platform",
+    "open_to_public_contributors": true,
+    "recommendations": true,
+    "searchScope": [
+      "Power Apps",
+      "Power Automate",
+      "Power Platform"
+    ],
+    "titleSuffix": "Power Platform",
+    "uhfHeaderId": "MSDocsHeader-PowerPlatform",
+    "loc_version": "2023-04-04T19:04:14.5835489Z",
+    "loc_source_id": "Github-140887248#live",
+    "loc_file_id": "Github-140887248.live.MSDN.power-platform.power-fx/TOC.yml"
+  },
+  "items": [
+    {
+      "toc_title": "Microsoft Power Fx",
+      "children": [
+        {
+          "toc_title": "Power Fx",
+          "children": [
+            
+            {
+              "href": "/power-apps/maker/canvas-apps/working-with-formulas",
+              "toc_title": "Power Fx-Formeln in Power Apps verwenden"
+            }  ]            
+          
+        }
+      ]
+    }
+  ]
+}
