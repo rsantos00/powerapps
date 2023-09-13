@@ -4,7 +4,8 @@ With Traffic Managed you solution you can bring your own domain for short link u
 
 You will have the possibility to give a Role for user to click the links, and an admin role to setup new links. The following picture represents the UI, using the Traffic Managed User role, you will have less features available.
 
-![image](https://github.com/rsantos00/powerapps/assets/3724826/5c77d36b-9f82-465e-94af-bf86f170de75)
+<img width="693" alt="image" src="https://github.com/rsantos00/powerapps/assets/3724826/8ee117f2-5a60-46db-96cf-36719727d7a5">
+
 
 # Download
 
