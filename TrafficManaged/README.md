@@ -8,4 +8,4 @@ You will have the possibility to give a Role for user to click the links, and an
 
 # Download
 
-("https://github.com/rsantos00/powerapps/tree/master/TrafficManaged/Solution")[Go to folder]
+[Go to folder]("https://github.com/rsantos00/powerapps/tree/master/TrafficManaged/Solution")
