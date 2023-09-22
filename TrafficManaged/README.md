@@ -13,7 +13,8 @@ You will have the possibility to give a Role for user to click the links, and an
 <img width="692" alt="image" src="https://github.com/rsantos00/powerapps/assets/3724826/465a9a43-e8d9-4fd7-afe5-f2897c6cc96a">
 
 # Demo
-comming soon
+
+[![Watch the video]([https://i.stack.imgur.com/Vp2cE.png](https://github.com/rsantos00/powerapps/assets/3724826/24c8a648-416a-4b3e-8918-721c037a7bd5))]([https://youtu.be/vt5fpE0bzSY](https://youtu.be/OJ-4OFZsbbQ))
 
 # Download
 
