@@ -14,7 +14,7 @@ You will have the possibility to give a Role for user to click the links, and an
 
 # Demo
 
-[Watch video]([https://youtu.be/vt5fpE0bzSY](https://youtu.be/OJ-4OFZsbbQ)
+[Watch video](https://youtu.be/OJ-4OFZsbbQ)
 
 # Download
 
