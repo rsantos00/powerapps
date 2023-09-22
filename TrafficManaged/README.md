@@ -14,10 +14,7 @@ You will have the possibility to give a Role for user to click the links, and an
 
 # Demo
 
-![image](https://github.com/rsantos00/powerapps/assets/3724826/c3d58dae-5bd1-4d5c-bf89-e2ecc182ced9)
-
-
-[![Watch the video]([https://github.com/rsantos00/powerapps/assets/3724826/c3d58dae-5bd1-4d5c-bf89-e2ecc182ced9)]([https://youtu.be/vt5fpE0bzSY](https://youtu.be/OJ-4OFZsbbQ))
+[Watch video]([https://youtu.be/vt5fpE0bzSY](https://youtu.be/OJ-4OFZsbbQ)
 
 # Download
 
